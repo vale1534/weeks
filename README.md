@@ -12,8 +12,8 @@
 import { weekOfDate } from 'weeks';
 
 // 计算某天是第几周
-const theDate = new Date('Tue Jul 04 2017 23:59:59 GMT+0800');
-const theWeek = weekOfDate(thu);
+const today = new Date();
+const theWeek = weekOfDate(today);
 ```
 
 反过来，计算某周的第一天和最后一天是哪天。默认以星期天为起始日，通过 `weeks.setStartOfWeek(1);` 设置以星期一为起始日。
@@ -25,8 +25,8 @@ import { setStartOfWeek, firstDayOfWeek, lastDayOfWeek } from 'weeks';
 setStartOfWeek(1);
 
 // 计算第 2048 周的星期一和星期日
-const firstDay = firstDayOfWeek(2048);
-const lastDay = lastDayOfWeek(2048);
+const firstDay = firstDayOfWeek(2480);
+const lastDay = lastDayOfWeek(2480);
 ```
 
 ## 时区因素
