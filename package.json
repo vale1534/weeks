@@ -1,0 +1,17 @@
+{
+  "name": "weeks",
+  "version": "1.0.0",
+  "description": "Week numbers since January 1, 1970.",
+  "main": "weeks.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/wenris/weeks",
+  "author": "Wenris",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4"
+  }
+}
